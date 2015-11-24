@@ -36,4 +36,16 @@ namespace Lab4
             return ($"{Value}");
         }
     }
+
+    class TestStr
+    {
+        static void Main()
+        {
+            Console.WriteLine("Введите строку.");
+            var str = new Str(Console.ReadLine());
+            Console.WriteLine("Перевёрнутая строка: {0}",str>>0);
+            Console.WriteLine("Минимальное слово в строке: {0}", ++str);
+            Console.ReadKey();
+        }
+    }
 }

@@ -1,6 +1,0 @@
-c:\users\ilshat\documents\visual studio 2015\Projects\Lab4\Lab4\bin\Debug\Lab4.exe.config
-c:\users\ilshat\documents\visual studio 2015\Projects\Lab4\Lab4\bin\Debug\Lab4.exe
-c:\users\ilshat\documents\visual studio 2015\Projects\Lab4\Lab4\bin\Debug\Lab4.pdb
-c:\users\ilshat\documents\visual studio 2015\Projects\Lab4\Lab4\obj\Debug\Lab4.csprojResolveAssemblyReference.cache
-c:\users\ilshat\documents\visual studio 2015\Projects\Lab4\Lab4\obj\Debug\Lab4.exe
-c:\users\ilshat\documents\visual studio 2015\Projects\Lab4\Lab4\obj\Debug\Lab4.pdb

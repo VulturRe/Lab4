@@ -19,8 +19,21 @@ namespace Lab4
 
         public static Str operator >>(Str str, int x)
         {
-            // var st = new string(str.Value.ToCharArray().Reverse().ToString());
-            return new Str(str.Value.ToCharArray().Reverse().ToString());
+            return new Str(new string(str.Value.ToCharArray().Reverse().ToArray()));
+        }
+
+        public static Str operator ++(Str str)
+        {
+            var st = str.Value.Split(' ');
+            var min = st[0];
+            foreach (var s in st.Where(s => s.Length < min.Length))
+                min = s;
+            return new Str(min);
+        }
+
+        public override string ToString()
+        {
+            return ($"{Value}");
         }
     }
 }
